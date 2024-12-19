@@ -51,3 +51,15 @@ docker-compose logs laravel.test
 docker-compose logs mysql
 
 ````
+
+### Install lIbrary
+
+## cotane
+
+````
+composer require laravel/octane
+php artisan octane:install --server=frankenphp
+
+php artisan octane:frankenphp --port=8080 --host=0.0.0.0
+
+````
