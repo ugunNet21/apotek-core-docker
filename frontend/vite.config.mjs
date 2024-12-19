@@ -1,7 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'node:path'
-import autoprefixer from 'autoprefixer'
+import path from "node:path";
+
+import autoprefixer from "autoprefixer";
+import { defineConfig } from "vite";
+
+import react from "@vitejs/plugin-react";
 
 export default defineConfig(() => {
   return {
@@ -46,7 +48,7 @@ export default defineConfig(() => {
       extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.scss'],
     },
     server: {
-      port: 3000,
+      port: 4000,
       proxy: {
         // https://vitejs.dev/config/server-options.html
       },
